@@ -1,0 +1,62 @@
+.home {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.home>.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.69) 67.19%, rgba(161, 207, 102, 0.69) 100%);
+}
+
+.home>h1 {
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    color: #fff;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home>h1>span {
+    color: #A0CE65;
+}
+
+.home>section {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.home>section>a>img {
+    margin: 40px;
+    cursor: pointer;
+    width: 221px;
+    height: 162px;
+    transition: all ease-in-out 250ms;
+}
+
+.home>section>a>img:hover {
+    width: 241px;
+    height: 182px;
+}
